@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const categories = [
   {
-    name: "Frameworks & Languages",
+    name: "Frontend",
     techs: [
       "Angular",
       "Vue.js",
@@ -11,31 +11,34 @@ const categories = [
       "HTML",
       "CSS",
       "SCSS",
+      "Tailwind CSS",
     ],
   },
   {
-    name: "UI Libraries & Tools",
+    name: "Backend & Database",
+    techs: [
+      "Python",
+      "FastAPI",
+      "SQLAlchemy",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "JWT",
+      "WebSockets",
+    ],
+  },
+  {
+    name: "UI Libraries & DevOps",
     techs: [
       "Angular Material",
       "Vuetify",
-      "Tailwind CSS",
-      "Bootstrap",
       "Ag-Grid",
-      "Storybook",
-      "PDF.js",
       "Pinia",
-    ],
-  },
-  {
-    name: "DevOps & Others",
-    techs: [
+      "Storybook",
       "Docker",
       "Jenkins",
       "Git",
-      "MongoDB",
       "SingleSPA",
-      "REST APIs",
-      "WebSockets",
     ],
   },
 ];
@@ -78,15 +81,15 @@ const categories = [
       <div
         class="mt-16 bg-gray-900 border border-gray-800 rounded-2xl p-6 sm:p-8"
       >
-        <h3
+        <p
           class="text-sm font-semibold text-cyan-400 uppercase tracking-wider mb-6"
         >
           Professional Experience
-        </h3>
+        </p>
         <div class="flex flex-col sm:flex-row sm:items-center gap-4">
           <div class="flex-1">
             <p class="text-lg font-semibold text-gray-200">
-              Product Engineer — Front End Developer
+              Product Engineer — Fullstack Developer
             </p>
             <p class="text-gray-400">Intellect Design Arena, Chennai</p>
           </div>

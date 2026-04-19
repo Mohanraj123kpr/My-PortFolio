@@ -33,11 +33,11 @@
         </span>
       </h1>
       <p class="text-lg sm:text-xl md:text-2xl text-gray-400 mb-8">
-        Angular Developer · Vue.js · Front-End Engineer
+        Fullstack Developer · Python · Vue.js · Angular
       </p>
       <p class="text-gray-500 max-w-xl mx-auto mb-10 leading-relaxed">
-        I build scalable, responsive, and high-performance web applications with
-        component-based architecture, micro-frontends, and reactive programming.
+        I build scalable, end-to-end web applications — from reactive frontends
+        with Vue.js and Angular to robust Python backends with FastAPI.
       </p>
 
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">

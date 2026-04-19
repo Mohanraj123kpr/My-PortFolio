@@ -12,15 +12,17 @@
         <!-- Left: Info -->
         <div>
           <p class="text-gray-400 leading-relaxed mb-6">
-            Frontend Developer with experience building dynamic, responsive, and
-            high-performance web applications. Strong proficiency in Angular and
-            Vue.js, with hands-on experience in component-based architecture,
-            micro-frontend development, and reactive programming using RxJS.
+            Fullstack Developer with experience building end-to-end web
+            applications using Python on the backend and Vue.js / Angular on the
+            frontend. Proficient in FastAPI, and REST API design, with strong
+            skills in component-based architecture, micro-frontends, and
+            reactive programming using RxJS.
           </p>
           <p class="text-gray-400 leading-relaxed mb-8">
-            Skilled in REST API integration, UI performance optimization, and
-            cross-browser compatibility. I enjoy creating reusable component
-            libraries and schema-driven UI systems that scale across teams.
+            Comfortable across the full stack — from designing database schemas
+            and building APIs to crafting performant, accessible UIs. I enjoy
+            creating reusable component libraries and schema-driven systems that
+            scale across teams.
           </p>
 
           <div class="grid grid-cols-2 gap-4">
@@ -45,7 +47,7 @@
             <div
               class="bg-gray-900 border border-gray-800 rounded-xl p-4 text-center"
             >
-              <p class="text-3xl font-bold text-cyan-400">10+</p>
+              <p class="text-3xl font-bold text-cyan-400">15+</p>
               <p class="text-sm text-gray-500 mt-1">Technologies</p>
             </div>
           </div>

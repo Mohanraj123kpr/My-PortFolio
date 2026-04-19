@@ -1,6 +1,22 @@
 <script setup lang="ts">
 const projects = [
   {
+    title: "Goal Tracker",
+    description:
+      "A fullstack productivity app to create, manage, and track personal goals with due dates, recurrence, and action plans. Built with a Python FastAPI backend and Angular frontend, deployed on Vercel.",
+    image: "🎯",
+    color: "from-cyan-500/20 to-green-500/20",
+    tags: ["Angular", "Python", "FastAPI", "SQLAlchemy", "PostgreSQL", "JWT"],
+    liveUrl: "https://goal-tracker-frontend-cyan.vercel.app/",
+    points: [
+      "Built a RESTful API with Python FastAPI covering full goal CRUD, user registration/login, and JWT-based authentication with bcrypt password hashing.",
+      "Designed SQLAlchemy ORM models for users and goals with support for due dates, recurrence (daily/weekly/monthly), and action plans.",
+      "Implemented Angular frontend with route guards, HTTP interceptors for token injection, and a goal dialog component for create/edit flows.",
+      "Used PostgreSQL as the database with psycopg2, and structured the backend for Vercel serverless deployment via the api/ entry point.",
+      "Configured CORS dynamically via environment variables to support both local development and production origins.",
+    ],
+  },
+  {
     title: "Magic Placement",
     description:
       "Angular-based interface for insurance underwriters to extract and compare data from policy and binder documents using an LLM-powered backend.",
@@ -144,6 +160,30 @@ import { ref } from "vue";
                 {{ tag }}
               </span>
             </div>
+
+            <!-- Live link -->
+            <a
+              v-if="project.liveUrl"
+              :href="project.liveUrl"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-1.5 text-sm text-green-400 hover:text-green-300 transition-colors mb-3"
+            >
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+              Live Demo
+            </a>
 
             <!-- Toggle details -->
             <button
